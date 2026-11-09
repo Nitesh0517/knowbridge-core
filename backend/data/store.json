@@ -1,0 +1,1732 @@
+{
+  "users": [],
+  "projects": [
+    {
+      "name": "new",
+      "description": "bbbb",
+      "organization": "FinTech Dynamics Corp",
+      "category": "Cloud Engineering & DevOps",
+      "projectManager": "Sarah Jenkins",
+      "startDate": "2026-11-09",
+      "status": "In Progress",
+      "accessLevel": "Internal Team",
+      "members": [
+        {
+          "id": "demo_user_123",
+          "name": "Demo Lead Architect",
+          "email": "demo@knowbridge.ai",
+          "role": "Project Manager"
+        }
+      ],
+      "_id": "kb_z850gxwnl",
+      "id": "kb_z850gxwnl",
+      "createdAt": "2026-11-09T16:00:07.865Z",
+      "updatedAt": "2026-11-09T16:00:07.865Z"
+    },
+    {
+      "name": "E2E Test Transition Engine",
+      "description": "Automated verification workspace for KnowBridge Hackathon submission.",
+      "organization": "KnowBridge Test Labs",
+      "category": "Cloud Engineering & DevOps",
+      "projectManager": "Elena Rostova",
+      "startDate": "2026-11-09",
+      "status": "In Progress",
+      "accessLevel": "Internal Team",
+      "members": [
+        {
+          "id": "demo_user_123",
+          "name": "Demo Lead Architect",
+          "email": "demo@knowbridge.ai",
+          "role": "Project Manager"
+        }
+      ],
+      "_id": "kb_yv68h14h8",
+      "id": "kb_yv68h14h8",
+      "createdAt": "2026-11-09T10:58:03.542Z",
+      "updatedAt": "2026-11-09T10:58:03.542Z"
+    },
+    {
+      "id": "proj_neural_search",
+      "name": "KnowBridge Hybrid RAG Core",
+      "description": "Semantic vector retrieval engine and graph-based knowledge reconstruction pipeline for complex multi-format document archives.",
+      "organization": "KnowBridge Labs",
+      "category": "AI / Machine Learning",
+      "projectManager": "Alex Rivera",
+      "startDate": "2025-10-01",
+      "status": "In Progress",
+      "accessLevel": "Restricted",
+      "members": [
+        {
+          "id": "m4",
+          "name": "Alex Rivera",
+          "email": "alex@knowbridge.ai",
+          "role": "Product Lead"
+        },
+        {
+          "id": "m5",
+          "name": "David Kim",
+          "email": "david.k@knowbridge.ai",
+          "role": "Departing ML Engineer"
+        }
+      ],
+      "createdAt": "2025-10-01T10:00:00.000Z",
+      "updatedAt": "2026-11-09T10:26:00.281Z",
+      "_id": "proj_neural_search"
+    },
+    {
+      "id": "proj_apex_infra",
+      "name": "Apex Cloud Infrastructure Migration",
+      "description": "Enterprise migration of distributed microservices from legacy VPC to Kubernetes multi-cluster with zero-downtime database cutover.",
+      "organization": "FinTech Dynamics Corp",
+      "category": "Cloud Engineering & DevOps",
+      "projectManager": "Sarah Jenkins",
+      "startDate": "2025-08-15",
+      "status": "In Progress",
+      "accessLevel": "Internal Confidential",
+      "members": [
+        {
+          "id": "m1",
+          "name": "Sarah Jenkins",
+          "email": "sarah.j@fintech.io",
+          "role": "Project Manager"
+        },
+        {
+          "id": "m2",
+          "name": "Marcus Chen",
+          "email": "marcus.c@fintech.io",
+          "role": "Departing Lead Architect"
+        },
+        {
+          "id": "m3",
+          "name": "Elena Rostova",
+          "email": "elena.r@fintech.io",
+          "role": "Incoming Lead Architect"
+        }
+      ],
+      "createdAt": "2025-08-15T09:00:00.000Z",
+      "updatedAt": "2026-11-09T10:26:00.280Z",
+      "_id": "proj_apex_infra"
+    }
+  ],
+  "sources": [
+    {
+      "projectId": "proj_apex_infra",
+      "name": "GitHub: octocat/Hello-World",
+      "type": "github",
+      "uploadedBy": "Demo Lead Architect",
+      "uploadDate": "2026-11-09",
+      "permissionLevel": "Public Open Source",
+      "processingStatus": "ready",
+      "sourceReference": "https://github.com/octocat/Hello-World",
+      "pageCount": 1,
+      "totalChars": 2903,
+      "content": "# GITHUB REPOSITORY AUDIT: octocat/Hello-World\n\nDescription: My first repository on GitHub!\nDefault Branch: master\nPrimary Language: Multiple / Unspecified\nOpen Issues Count: 7536\nVisibility: Public\n\n## RECENT COMMITS & ACTIVITY LOG\n- [Commit 7fd1a60] (2012-03-06T23:06:50Z) by The Octocat: Merge pull request #6 from Spaceghost/patch-1  New line at end of file.\n- [Commit 7629413] (2011-09-14T04:42:41Z) by Johnneylee Jack Rollins: New line at end of file. --Signed off by Spaceghost\n- [Commit 553c207] (2011-01-26T19:06:08Z) by cameronmcefee: first commit\n\n## OPEN ISSUES & PULL REQUESTS\n- [Pull Request #11715] Update Hello World to Thai language (by bosssnkc) [Labels: none]\n  Description: just Hello World in Thai word\n- [Issue #11714] test (by boldsquid-forge[bot]) [Labels: none]\n  Description: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n- [Issue #11713] Feat: Create a simple FastAPI ping/pong and math healthcheck API w (by GopalMore) [Labels: none]\n  Description: Autonomous SDLC tracking issue for project:  Create a simple FastAPI ping/pong and math healthcheck API with pytest  Branch: `feat/create_a_simple_fastapi_ping_pong_and_math_healthcheck_api_w`\n- [Issue #11712] Feat: Create a simple FastAPI ping/pong and math healthcheck API w (by GopalMore) [Labels: none]\n  Description: Autonomous SDLC tracking issue for project:  Create a simple FastAPI ping/pong and math healthcheck API with pytest  Branch: `feat/create_a_simple_fastapi_ping_pong_and_math_healthcheck_api_w`\n- [Issue #11711] Automated issue with Playwright (by natmortem) [Labels: none]\n- [Issue #11710] Automated issue with Playwright (by natmortem) [Labels: none]\n- [Issue #11709] Automated issue with Playwright (by natmortem) [Labels: none]\n- [Issue #11708] test (by pi-safe-agent[bot]) [Labels: none]\n  Description: test\n- [Issue #11707] Automated issue with Playwright (by natmortem) [Labels: none]\n- [Issue #11706] Automated issue with Playwright (by natmortem) [Labels: none]\n- [Issue #11705] Automated issue with Playwright (by natmortem) [Labels: none]\n- [Pull Request #11702] Add sync test message to README (by bobbyacharya) [Labels: none]\n- [Issue #11700] test2 (by claude[bot]) [Labels: none]\n  Description: CLAUDE.md's binding rule (owner 2026-10-27) is that every new limit or threshold is its own App Setting, never hardcoded — and this same PR already made the related count configurable.\n- [Issue #11699] test (by claude[bot]) [Labels: none]\n- [Pull Request #11698] update README (by keerthanagowda790-debug) [Labels: none]\n  Description: I added information about my first GitHub fork practice.\n\n## PROJECT README & DOCUMENTATION\nHello World!\n\n",
+      "metadata": {
+        "owner": "octocat",
+        "repo": "Hello-World",
+        "defaultBranch": "master",
+        "commitsCount": 3,
+        "issuesCount": 15,
+        "openIssues": 7536
+      },
+      "_id": "kb_gam3n3fm8",
+      "id": "kb_gam3n3fm8",
+      "createdAt": "2026-11-09T10:59:08.355Z",
+      "updatedAt": "2026-11-09T10:59:08.355Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "name": "Falcon-Sprint26-Handoff-Notes.docx",
+      "type": "document",
+      "uploadedBy": "Demo Lead Architect",
+      "uploadDate": "2026-11-09",
+      "permissionLevel": "Engineering Lead Only",
+      "processingStatus": "ready",
+      "sourceReference": "uploads/1794221901807-20942836-Falcon-Sprint26-Handoff-Notes.docx",
+      "pageCount": 2,
+      "totalChars": 1214,
+      "content": "Falcon Engine: Sprint 26 Engineering Transition & Handoff Notes\n\nDate: October 22, 2025 | Facilitator: Rachel Vance (VP Engineering)\n\n1. Departing Member Scope of Work\n\nDr. Aris Thorne is stepping down on November 10. All architectural governance, settlement routing rules, and regulatory audit interfaces must be transitioned to the incoming lead.\n\n2. Critical Decisions Made in Sprint 26\n\nDecided to: Enforce HMAC-SHA256 signature verification on all partner webhook callbacks. Decider: Dr. Aris Thorne. Date: 2025-10-22. Why: Penetration testing report flagged replay attack vulnerability in staging webhook endpoint.\n\n3. Unfinished Deliverables & Backlog Items\n\nThe following tasks remain incomplete as of sprint closure:\n\n• TODO: Implement automated dead-letter queue re-drive Lambda function. Priority: High. Assigned to: Unassigned.\n\n• Incomplete: Finalize OpenAPI 3.1 specification for partner bank reconciliation API.\n\n• Pending: Load test Kafka broker under 20,000 synthetic transaction spikes.\n\n4. Unresolved Questions & Missing Evidence\n\n• Open question: Who holds the credentials for the staging SWIFT sandbox certificate?\n\n• Unclear: Unknown SLA requirements for weekend settlement window processing.",
+      "sections": [
+        {
+          "section": "Introduction",
+          "text": "Falcon Engine: Sprint 26 Engineering Transition & Handoff Notes",
+          "style": "Title"
+        },
+        {
+          "section": "Introduction",
+          "text": "Date: October 22, 2025 | Facilitator: Rachel Vance (VP Engineering)",
+          "style": "Normal"
+        },
+        {
+          "section": "1. Departing Member Scope of Work",
+          "text": "1. Departing Member Scope of Work",
+          "style": "Heading 1"
+        },
+        {
+          "section": "1. Departing Member Scope of Work",
+          "text": "Dr. Aris Thorne is stepping down on November 10. All architectural governance, settlement routing rules, and regulatory audit interfaces must be transitioned to the incoming lead.",
+          "style": "Normal"
+        },
+        {
+          "section": "2. Critical Decisions Made in Sprint 26",
+          "text": "2. Critical Decisions Made in Sprint 26",
+          "style": "Heading 1"
+        },
+        {
+          "section": "2. Critical Decisions Made in Sprint 26",
+          "text": "Decided to: Enforce HMAC-SHA256 signature verification on all partner webhook callbacks. Decider: Dr. Aris Thorne. Date: 2025-10-22. Why: Penetration testing report flagged replay attack vulnerability in staging webhook endpoint.",
+          "style": "Normal"
+        },
+        {
+          "section": "3. Unfinished Deliverables & Backlog Items",
+          "text": "3. Unfinished Deliverables & Backlog Items",
+          "style": "Heading 1"
+        },
+        {
+          "section": "3. Unfinished Deliverables & Backlog Items",
+          "text": "The following tasks remain incomplete as of sprint closure:",
+          "style": "Normal"
+        },
+        {
+          "section": "3. Unfinished Deliverables & Backlog Items",
+          "text": "• TODO: Implement automated dead-letter queue re-drive Lambda function. Priority: High. Assigned to: Unassigned.",
+          "style": "Normal"
+        },
+        {
+          "section": "3. Unfinished Deliverables & Backlog Items",
+          "text": "• Incomplete: Finalize OpenAPI 3.1 specification for partner bank reconciliation API.",
+          "style": "Normal"
+        },
+        {
+          "section": "3. Unfinished Deliverables & Backlog Items",
+          "text": "• Pending: Load test Kafka broker under 20,000 synthetic transaction spikes.",
+          "style": "Normal"
+        },
+        {
+          "section": "4. Unresolved Questions & Missing Evidence",
+          "text": "4. Unresolved Questions & Missing Evidence",
+          "style": "Heading 1"
+        },
+        {
+          "section": "4. Unresolved Questions & Missing Evidence",
+          "text": "• Open question: Who holds the credentials for the staging SWIFT sandbox certificate?",
+          "style": "Normal"
+        },
+        {
+          "section": "4. Unresolved Questions & Missing Evidence",
+          "text": "• Unclear: Unknown SLA requirements for weekend settlement window processing.",
+          "style": "Normal"
+        }
+      ],
+      "metadata": {
+        "headings_found": 4
+      },
+      "_id": "kb_vidmpko7k",
+      "id": "kb_vidmpko7k",
+      "createdAt": "2026-11-09T10:58:21.880Z",
+      "updatedAt": "2026-11-09T10:58:21.880Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "name": "ADR-007-Database-Cutover-Strategy.pdf",
+      "type": "document",
+      "uploadedBy": "Demo Lead Architect",
+      "uploadDate": "2026-11-09",
+      "permissionLevel": "Internal Team Access",
+      "processingStatus": "ready",
+      "sourceReference": "uploads/1794221892762-341900420-ADR-007-Database-Cutover-Strategy.pdf",
+      "pageCount": 2,
+      "totalChars": 1783,
+      "content": "--- PAGE 1 ---\nARCHITECTURAL DECISION RECORD: ADR-007\nProject: Falcon Real-Time Clearing Engine\nTitle: Zero-Downtime CDC Streaming & Sharded Database Cutover\nDate: 2025-10-14\nDecider: Dr. Aris Thorne (Departing Chief Architect)\nStatus: Approved\n1. EXECUTIVE CONTEXT & MOTIVATION\nOur primary transaction database currently experiences lock contention above 8,500 TPS.\nTo support European market expansion, we must transition to horizontally partitioned\nPostgreSQL clusters using Debezium change-data-capture (CDC) pipelines.\n2. ARCHITECTURAL DECISION\nWe decided to deploy Debezium CDC connectors with Apache Kafka and ScyllaDB for idempotency\ncaching, rather than batch ETL replication or AWS DMS.\nRationale: Debezium delivers sub-15ms replication lag and guarantees strict FIFO ordering.\nAlternatives Considered:\n- AWS Database Migration Service (DMS): Disqualified due to lack of schema evolution guarantees.\n- Custom polling scripts: Rejected due to excessive read replica overhead.\n\n--- PAGE 2 ---\n3. UNFINISHED WORK & OUTSTANDING CRITICAL TASKS\nTODO: The multi-region Kafka replication mirror-maker is still unconfigured.\nBlocked by: Network latency spikes across us-east-1 and eu-central-1.\nPriority: Critical Blocker for Q4 Cutover.\nAssigned to: Insufficient Evidence.\nIncomplete: Consumer group idempotency deduplication key is not yet implemented\nin the settlement worker.\nOwner: Dr. Aris Thorne (Departing).\n4. RISKS & DEPENDENCIES\nRisk: High risk of data divergence if the primary sequence numbers skip during failover.\nMitigation: Deploy dual-write verification shadow proxy for 72 hours prior to cutover.\nSingle Point of Failure: Aris Thorne is the sole administrator holding the master\nGPG decryption key for production database backups. Immediate key rotation required.",
+      "sections": [],
+      "metadata": {
+        "title": "",
+        "author": "",
+        "subject": ""
+      },
+      "_id": "kb_348uae3b5",
+      "id": "kb_348uae3b5",
+      "createdAt": "2026-11-09T10:58:12.785Z",
+      "updatedAt": "2026-11-09T10:58:12.785Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "name": "Meeting: Lead Handover Sync & Security Audit",
+      "type": "meeting_note",
+      "uploadedBy": "Demo Lead Architect",
+      "uploadDate": "2025-10-28",
+      "permissionLevel": "Internal Team",
+      "processingStatus": "ready",
+      "sourceReference": "manual/meeting-1794221883552",
+      "pageCount": 1,
+      "totalChars": 446,
+      "content": "# MEETING NOTES: Lead Handover Sync & Security Audit\nDate: 2025-10-28\nAttendees: Marcus Chen, Elena Rostova, Sarah Jenkins\nAgenda: Review database failover and secret credentials\n\n## DISCUSSION & DECISIONS\nDecided to adopt Amazon EKS with Cilium CNI. Marcus Chen will hand over Vault root keys by Nov 10.\n\n## ACTION ITEMS & UNFINISHED WORK\nTODO: Complete mTLS service mesh verification between Auth Service and Vault. Assigned to: Elena Rostova.\n",
+      "metadata": {
+        "attendees": "Marcus Chen, Elena Rostova, Sarah Jenkins",
+        "agenda": "Review database failover and secret credentials"
+      },
+      "_id": "kb_tced7tcxs",
+      "id": "kb_tced7tcxs",
+      "createdAt": "2026-11-09T10:58:03.552Z",
+      "updatedAt": "2026-11-09T10:58:03.552Z"
+    },
+    {
+      "id": "src_apex_github_repo",
+      "projectId": "proj_apex_infra",
+      "name": "GitHub Repo: fintech-corp/apex-cloud-core",
+      "type": "github",
+      "uploadedBy": "Marcus Chen",
+      "uploadDate": "2025-10-25",
+      "permissionLevel": "Authorized Engineering Repository",
+      "processingStatus": "ready",
+      "sourceReference": "https://github.com/fintech-corp/apex-cloud-core",
+      "pageCount": 3,
+      "totalChars": 3800,
+      "content": "# GITHUB REPOSITORY AUDIT: fintech-corp/apex-cloud-core\nDescription: Core infrastructure terraform manifests and Kubernetes helm templates for Apex Cloud.\nDefault Branch: main\nPrimary Language: HCL / Terraform\nOpen Issues Count: 7\n\n## RECENT COMMITS & ACTIVITY LOG\n- [Commit a89f12c] (2025-10-24) by Marcus Chen: fix: update vault agent injector annotations for zero-trust mTLS\n- [Commit 4b22c71] (2025-10-22) by Alex Kim: feat: add prometheus servicemonitor for envoy ingress proxy\n- [Commit d1e09a3] (2025-10-19) by Marcus Chen: chore: add initial draft of disaster recovery runbook\n\n## OPEN ISSUES & PULL REQUESTS\n- [Issue #48] Vault certificate auto-rotation fails intermittently after 72 hours (by Alex Kim) [Labels: bug, critical-blocker]\n  Description: Pods lose connection to Vault agent after certificate renewal. Blocks cutover.\n- [Pull Request #52] Implement zero-downtime Blue/Green ingress switch via Argo Rollouts (by Elena Rostova) [Labels: enhancement, in-review]\n  Description: Adds automated canary analysis using Prometheus error rate metrics.\n- [Issue #55] Missing documentation for Kafka dead-letter-queue retry configuration (by Sarah Jenkins) [Labels: documentation, handover-risk]",
+      "_id": "src_apex_github_repo",
+      "createdAt": "2026-11-09T10:26:00.785Z",
+      "updatedAt": "2026-11-09T10:26:00.785Z"
+    },
+    {
+      "id": "src_apex_meeting_notes",
+      "projectId": "proj_apex_infra",
+      "name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+      "type": "meeting_note",
+      "uploadedBy": "Sarah Jenkins",
+      "uploadDate": "2025-10-18",
+      "permissionLevel": "Team Internal",
+      "processingStatus": "ready",
+      "sourceReference": "meetings/2025-10-18-cutover-sync.txt",
+      "pageCount": 2,
+      "totalChars": 2450,
+      "content": "MEETING NOTES - 18 OCTOBER 2025\nAttendees: Sarah Jenkins (PM), Marcus Chen (Departing Lead), Elena Rostova (Incoming Lead), Alex Kim (DevOps)\nAgenda: Marcus handover transition, database replication lag, Vault root token migration.\n\nKey Discussion Points & Decisions:\n1. Decision: Decided to delay production traffic cutover by 2 weeks until database read-replica lag falls below 50ms.\n   Decider: Sarah Jenkins & Marcus Chen.\n   Date: 2025-10-18.\n   Why: Data corruption risk during failover if replication is out of sync.\n   Alternatives considered: Proceed with risk and run offline backfill scripts.\n\n2. Unfinished Work & Pending Tasks:\n   - TODO: Automate Vault secret rotation script. Owner: Alex Kim. Priority: High.\n   - Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence.\n   - WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.\n\n3. Ownership & Handover Gaps:\n   - Marcus is leaving the organization on Nov 15. All cloud provider root MFA keys must be transferred to Elena Rostova.\n   - Gap: Nobody currently owns the Kafka consumer rebalance alert triage protocol.\n\n4. Unresolved Questions:\n   - Open question: Who approved the bypass for the third-party credit check webhook timeout?\n   - Unclear: Unknown deadlines for PCI-DSS external audit re-certification.",
+      "_id": "src_apex_meeting_notes",
+      "createdAt": "2026-11-09T10:26:00.785Z",
+      "updatedAt": "2026-11-09T10:26:00.785Z"
+    },
+    {
+      "id": "src_apex_arch_pdf",
+      "projectId": "proj_apex_infra",
+      "name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+      "type": "pdf",
+      "uploadedBy": "Marcus Chen",
+      "uploadDate": "2025-09-12",
+      "permissionLevel": "Engineering Lead & Project Manager",
+      "processingStatus": "ready",
+      "sourceReference": "docs/architecture/ADR-04-k8s-migration.pdf",
+      "pageCount": 6,
+      "totalChars": 4120,
+      "content": "--- PAGE 1 ---\nARCHITECTURAL DECISION RECORD: ADR-04\nTitle: Dual-VPC Kubernetes Multi-Cluster Migration Strategy\nDate: 2025-09-12\nAuthor: Marcus Chen (Departing Lead Architect)\nStatus: Approved\n\nContext:\nOur monolithic payment routing system currently runs on legacy EC2 instances inside a single AWS VPC. Scalability bottlenecks and noisy-neighbor issues during peak trading hours necessitate migrating to EKS multi-cluster.\n\nDecision:\nWe decided to adopt Amazon EKS with Cilium CNI and Terraform infrastructure-as-code instead of Docker Swarm or Nomad.\nDecider: Marcus Chen & Sarah Jenkins.\nRationale: Cilium provides eBPF-based high throughput packet inspection and transparent mTLS required for PCI-DSS compliance.\n\n--- PAGE 2 ---\nUnfinished Work & Outstanding Dependencies:\nTODO: Complete mTLS service mesh verification between Auth Service and Vault before cutover.\nBlocked by: Vault certificate auto-rotation issue (#342).\nAssigned to: Elena Rostova (Incoming Lead).\nPriority: Critical blocker for Day 0 cutover.\n\n--- PAGE 3 ---\nRisks & Operational Bottlenecks:\nRisk: Single point of failure in PostgreSQL connection pooling. If PgBouncer pod crashes, payment API fails.\nMitigation: Deploy redundant PgBouncer stateful set with anti-affinity rules.\nWarning: Marcus Chen holds sole credentials for production Vault cluster root key token. Handover required immediately.\n\n--- PAGE 4 ---\nDecided to: Enforce structured JSON logging with OpenTelemetry tracing across all Go and Node microservices.\nDecider: Marcus Chen.\nWhy: Centralized Datadog ingestion requires standardized trace parent headers.\nAlternatives considered: Prometheus statsd agent, Jaeger standalone agent.",
+      "_id": "src_apex_arch_pdf",
+      "createdAt": "2026-11-09T10:26:00.784Z",
+      "updatedAt": "2026-11-09T10:26:00.784Z"
+    }
+  ],
+  "reconstructions": [
+    {
+      "projectId": "proj_apex_infra",
+      "projectName": "Apex Cloud Infrastructure Migration",
+      "targetRole": "Incoming Lead Architect",
+      "departingMember": "Dr. Aris Thorne & Marcus Chen",
+      "healthScore": 49,
+      "summary": "KnowBridge AI reconstructed project 'Apex Cloud Infrastructure Migration' across 5 authorized sources. Identified 3 architectural decisions, 9 pending work items, and 4 operational risks. 9 tasks lack confirmed ownership.",
+      "decisions": [
+        {
+          "id": "DEC-001",
+          "title": "Deploy debezium cdc connectors with apache kafka and scylladb for idempotency",
+          "decision": "decided to deploy Debezium CDC connectors with Apache Kafka and ScyllaDB for idempotency",
+          "date": "Insufficient Evidence",
+          "decider": "Insufficient Evidence",
+          "why": "Recorded rationale in ADR-007-Database-Cutover-Strategy.pdf: 2. ARCHITECTURAL DECISION We decided to deploy Debezium CDC connectors with Apache Kafka and ScyllaDB for idempotency ca...",
+          "alternatives_considered": [
+            "Insufficient Evidence"
+          ],
+          "evidence_excerpt": "2. ARCHITECTURAL DECISION We decided to deploy Debezium CDC connectors with Apache Kafka and ScyllaDB for idempotency caching, rather than batch ETL replication or AWS DMS.",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "source_id": "kb_348uae3b5",
+          "section_or_page": "Line 13",
+          "confidence": 0.9,
+          "status": "active"
+        },
+        {
+          "id": "DEC-002",
+          "title": "Delay production traffic cutover by 2 weeks until database read-replica lag fall",
+          "decision": "Decided to delay production traffic cutover by 2 weeks until database read-replica lag falls below 50ms",
+          "date": "Insufficient Evidence",
+          "decider": "Sarah Jenkins",
+          "why": "Recorded rationale in Sprint 24 Architecture & Cutover Handover Meeting.txt: Key Discussion Points & Decisions: 1. Decision: Decided to delay production traffic cutover by 2 weeks until database re...",
+          "alternatives_considered": [
+            "Insufficient Evidence"
+          ],
+          "evidence_excerpt": "Key Discussion Points & Decisions: 1. Decision: Decided to delay production traffic cutover by 2 weeks until database read-replica lag falls below 50ms. Decider: Sarah Jenkins & Marcus Chen.",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "source_id": "src_apex_meeting_notes",
+          "section_or_page": "Line 6",
+          "confidence": 0.9,
+          "status": "active"
+        },
+        {
+          "id": "DEC-003",
+          "title": "Adopt amazon eks with cilium cni and terraform infrastructure-as-code instead of",
+          "decision": "decided to adopt Amazon EKS with Cilium CNI and Terraform infrastructure-as-code instead of Docker Swarm or Nomad",
+          "date": "Insufficient Evidence",
+          "decider": "Marcus Chen",
+          "why": "Recorded rationale in Apex Infrastructure Architecture Decision Record (ADR-04).pdf: Decision: We decided to adopt Amazon EKS with Cilium CNI and Terraform infrastructure-as-code instead of Docker Swarm or...",
+          "alternatives_considered": [
+            "Docker Swarm or Nomad"
+          ],
+          "evidence_excerpt": "Decision: We decided to adopt Amazon EKS with Cilium CNI and Terraform infrastructure-as-code instead of Docker Swarm or Nomad. Decider: Marcus Chen & Sarah Jenkins.",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "source_id": "src_apex_arch_pdf",
+          "section_or_page": "Line 12",
+          "confidence": 0.9,
+          "status": "active"
+        }
+      ],
+      "unfinishedWork": [
+        {
+          "id": "TSK-001",
+          "title": "Implement automated dead-letter queue re-drive lambda function",
+          "description": "• TODO: Implement automated dead-letter queue re-drive Lambda function. Priority: High. Assigned to: Unassigned.",
+          "type": "pending_task",
+          "priority": "high",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "• TODO: Implement automated dead-letter queue re-drive Lambda function. Priority: High. Assigned to: Unassigned.",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx",
+          "source_id": "kb_vidmpko7k",
+          "estimated_effort": "2-4 days"
+        },
+        {
+          "id": "TSK-002",
+          "title": "Finalize openapi 3",
+          "description": "• Incomplete: Finalize OpenAPI 3.1 specification for partner bank reconciliation API.",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "• Incomplete: Finalize OpenAPI 3.1 specification for partner bank reconciliation API.",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx",
+          "source_id": "kb_vidmpko7k",
+          "estimated_effort": "1 week"
+        },
+        {
+          "id": "TSK-003",
+          "title": "Load test kafka broker under 20,000 synthetic transaction spikes",
+          "description": "• Pending: Load test Kafka broker under 20,000 synthetic transaction spikes.",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "• Pending: Load test Kafka broker under 20,000 synthetic transaction spikes.",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx",
+          "source_id": "kb_vidmpko7k",
+          "estimated_effort": "1 week"
+        },
+        {
+          "id": "TSK-004",
+          "title": "The multi-region kafka replication mirror-maker is still unconfigured",
+          "description": "TODO: The multi-region Kafka replication mirror-maker is still unconfigured. Blocked by: Network latency spikes across us-east-1 and eu-central-1.",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "TODO: The multi-region Kafka replication mirror-maker is still unconfigured. Blocked by: Network latency spikes across us-east-1 and eu-central-1.",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "source_id": "kb_348uae3b5",
+          "estimated_effort": "1 week"
+        },
+        {
+          "id": "TSK-005",
+          "title": "Consumer group idempotency deduplication key is not yet implemented",
+          "description": "Incomplete: Consumer group idempotency deduplication key is not yet implemented in the settlement worker.",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "Incomplete: Consumer group idempotency deduplication key is not yet implemented in the settlement worker.",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "source_id": "kb_348uae3b5",
+          "estimated_effort": "1 week"
+        },
+        {
+          "id": "TSK-006",
+          "title": "Automate vault secret rotation script",
+          "description": "- TODO: Automate Vault secret rotation script. Owner: Alex Kim. Priority: High. - Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assign",
+          "type": "pending_task",
+          "priority": "high",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "- TODO: Automate Vault secret rotation script. Owner: Alex Kim. Priority: High. - Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence.",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "source_id": "src_apex_meeting_notes",
+          "estimated_effort": "2-4 days"
+        },
+        {
+          "id": "TSK-007",
+          "title": "Redis cluster cache invalidation hooks are still missing in the paymen",
+          "description": "- Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence. - WIP: Write Terraform module for multi-region dis",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "- Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence. - WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "source_id": "src_apex_meeting_notes",
+          "estimated_effort": "1 week"
+        },
+        {
+          "id": "TSK-008",
+          "title": "Write terraform module for multi-region disaster recovery failover",
+          "description": "- WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "- WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "source_id": "src_apex_meeting_notes",
+          "estimated_effort": "1 week"
+        },
+        {
+          "id": "TSK-009",
+          "title": "Complete mtls service mesh verification between auth service and vault",
+          "description": "TODO: Complete mTLS service mesh verification between Auth Service and Vault before cutover. Blocked by: Vault certificate auto-rotation issue (#342).",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "TODO: Complete mTLS service mesh verification between Auth Service and Vault before cutover. Blocked by: Vault certificate auto-rotation issue (#342).",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "source_id": "src_apex_arch_pdf",
+          "estimated_effort": "1 week"
+        }
+      ],
+      "ownership": [
+        {
+          "id": "OWN-001",
+          "role_or_domain": "Active Work Package: Implement automated dead-lette...",
+          "current_owner": "Insufficient Evidence",
+          "handover_to": "Incoming Lead Architect",
+          "responsibilities": [
+            "Implement automated dead-letter queue re-drive lambda function",
+            "Finalize openapi 3",
+            "Load test kafka broker under 20,000 synthetic transaction spikes",
+            "The multi-region kafka replication mirror-maker is still unconfigured"
+          ],
+          "key_contacts": [
+            "Engineering Lead",
+            "Project Manager"
+          ],
+          "ownership_gap": true,
+          "gap_risk_level": "high",
+          "evidence_excerpt": "Extracted from task assignments: Implement automated dead-letter queue re-drive lambda function, Finalize openapi 3",
+          "source_name": "Task & Activity Matrix",
+          "source_id": "src-matrix"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "DEP-001",
+          "dependent_item": "Centralized Datadog ingestion",
+          "depends_on": "standardized trace parent headers",
+          "type": "task_dependency",
+          "is_blocked": false,
+          "blocker_details": null,
+          "evidence_excerpt": "Why: Centralized Datadog ingestion requires standardized trace parent headers.",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "source_id": "src_apex_arch_pdf"
+        }
+      ],
+      "risks": [
+        {
+          "id": "RSK-001",
+          "title": "High risk of data divergence if the primary sequence numbers skip duri",
+          "description": "Risk: High risk of data divergence if the primary sequence numbers skip during failover. Mitigation: Deploy dual-write verification shadow proxy for 72 hours prior to cutover.",
+          "category": "technical",
+          "severity": "high",
+          "probability": "high",
+          "mitigation": "Establish verification checkpoint and document step-by-step procedures in ADR-007-Database-Cutover-Strategy.pdf.",
+          "is_unresolved": true,
+          "evidence_excerpt": "Risk: High risk of data divergence if the primary sequence numbers skip during failover. Mitigation: Deploy dual-write verification shadow proxy for 72 hours prior to cutover.",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "source_id": "kb_348uae3b5"
+        },
+        {
+          "id": "RSK-002",
+          "title": "Aris thorne is the sole administrator holding the master",
+          "description": "Single Point of Failure: Aris Thorne is the sole administrator holding the master GPG decryption key for production database backups. Immediate key rotation required.",
+          "category": "technical",
+          "severity": "high",
+          "probability": "high",
+          "mitigation": "Establish verification checkpoint and document step-by-step procedures in ADR-007-Database-Cutover-Strategy.pdf.",
+          "is_unresolved": true,
+          "evidence_excerpt": "Single Point of Failure: Aris Thorne is the sole administrator holding the master GPG decryption key for production database backups. Immediate key rotation required.",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "source_id": "kb_348uae3b5"
+        },
+        {
+          "id": "RSK-003",
+          "title": "Single point of failure in postgresql connection pooling",
+          "description": "Risk: Single point of failure in PostgreSQL connection pooling. If PgBouncer pod crashes, payment API fails. Mitigation: Deploy redundant PgBouncer stateful set with anti-affinity rules.",
+          "category": "technical",
+          "severity": "high",
+          "probability": "high",
+          "mitigation": "Establish verification checkpoint and document step-by-step procedures in Apex Infrastructure Architecture Decision Record (ADR-04).pdf.",
+          "is_unresolved": true,
+          "evidence_excerpt": "Risk: Single point of failure in PostgreSQL connection pooling. If PgBouncer pod crashes, payment API fails. Mitigation: Deploy redundant PgBouncer stateful set with anti-affinity rules.",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "source_id": "src_apex_arch_pdf"
+        },
+        {
+          "id": "RSK-004",
+          "title": "Marcus chen holds sole credentials for production vault cluster root k",
+          "description": "Warning: Marcus Chen holds sole credentials for production Vault cluster root key token. Handover required immediately. ",
+          "category": "transition",
+          "severity": "medium",
+          "probability": "medium",
+          "mitigation": "Establish verification checkpoint and document step-by-step procedures in Apex Infrastructure Architecture Decision Record (ADR-04).pdf.",
+          "is_unresolved": true,
+          "evidence_excerpt": "Warning: Marcus Chen holds sole credentials for production Vault cluster root key token. Handover required immediately. ",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "source_id": "src_apex_arch_pdf"
+        }
+      ],
+      "nextActions": [
+        {
+          "id": "ACT-001",
+          "action": "Review authenticated access credentials and project permissions for Incoming Lead Architect.",
+          "priority": "immediate",
+          "target_role": "Incoming Lead Architect",
+          "timeline_phase": "Day 1-30",
+          "dependencies": [
+            "Administrative Access Grant"
+          ],
+          "evidence_excerpt": "Critical onboarding requirement identified in environment setup records.",
+          "source_name": "Environment Baseline",
+          "source_id": "src-env"
+        },
+        {
+          "id": "ACT-002",
+          "action": "Execute test verification on outstanding high-priority tasks: ['Implement automated dead-letter queue re-drive lambda function', 'Finalize openapi 3'].",
+          "priority": "immediate",
+          "target_role": "Incoming Lead Architect",
+          "timeline_phase": "Day 1-30",
+          "dependencies": [
+            "Implement automated dead-letter queue re-drive lambda function"
+          ],
+          "evidence_excerpt": "Outstanding work items requiring immediate developer continuation.",
+          "source_name": "Task Registry",
+          "source_id": "src-reg"
+        },
+        {
+          "id": "ACT-003",
+          "action": "Address unresolved questions regarding undocumented dependencies and third-party API quotas.",
+          "priority": "short_term",
+          "target_role": "Incoming Lead Architect",
+          "timeline_phase": "Day 31-60",
+          "dependencies": [
+            "Knowledge Review Meeting"
+          ],
+          "evidence_excerpt": "Open question items marked with Insufficient Evidence.",
+          "source_name": "Risk Audit",
+          "source_id": "src-audit"
+        }
+      ],
+      "unresolvedQuestions": [
+        {
+          "id": "QUE-001",
+          "question": "Who holds the credentials for the staging SWIFT sandbox certificate?",
+          "reason": "unclear_ownership",
+          "insufficient_evidence": true,
+          "impact": "Impairs incoming team member momentum until clarified.",
+          "suggested_action": "Confirm with source owner or consult Falcon-Sprint26-Handoff-Notes.docx.",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx"
+        },
+        {
+          "id": "QUE-002",
+          "question": "Unknown SLA requirements for weekend settlement window processing?",
+          "reason": "missing_information",
+          "insufficient_evidence": true,
+          "impact": "Impairs incoming team member momentum until clarified.",
+          "suggested_action": "Confirm with source owner or consult Falcon-Sprint26-Handoff-Notes.docx.",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx"
+        },
+        {
+          "id": "QUE-003",
+          "question": "Kafka dead-letter-queue retry configuration (by Sarah Jenkins) [Labels: documentation, handover-risk]?",
+          "reason": "missing_information",
+          "insufficient_evidence": true,
+          "impact": "Impairs incoming team member momentum until clarified.",
+          "suggested_action": "Confirm with source owner or consult GitHub Repo: fintech-corp/apex-cloud-core.",
+          "source_name": "GitHub Repo: fintech-corp/apex-cloud-core"
+        },
+        {
+          "id": "QUE-004",
+          "question": "Who approved the bypass for the third-party credit check webhook timeout?",
+          "reason": "unclear_ownership",
+          "insufficient_evidence": true,
+          "impact": "Impairs incoming team member momentum until clarified.",
+          "suggested_action": "Confirm with source owner or consult Sprint 24 Architecture & Cutover Handover Meeting.txt.",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt"
+        },
+        {
+          "id": "QUE-005",
+          "question": "Unknown deadlines for PCI-DSS external audit re-certification?",
+          "reason": "missing_information",
+          "insufficient_evidence": true,
+          "impact": "Impairs incoming team member momentum until clarified.",
+          "suggested_action": "Confirm with source owner or consult Sprint 24 Architecture & Cutover Handover Meeting.txt.",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt"
+        }
+      ],
+      "evidenceClaims": [
+        {
+          "claim_id": "CLM-TSK-001",
+          "claim_text": "Unfinished work item: Implement automated dead-letter queue re-drive Lambda functi",
+          "claim_category": "unfinished_work",
+          "source_id": "kb_vidmpko7k",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx",
+          "document_reference": "Falcon-Sprint26-Handoff-Notes.docx (Line 17)",
+          "page_or_section": "Line 17",
+          "relevant_excerpt": "• TODO: Implement automated dead-letter queue re-drive Lambda function. Priority: High. Assigned to: Unassigned.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-002",
+          "claim_text": "Unfinished work item: Finalize OpenAPI 3",
+          "claim_category": "unfinished_work",
+          "source_id": "kb_vidmpko7k",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx",
+          "document_reference": "Falcon-Sprint26-Handoff-Notes.docx (Line 19)",
+          "page_or_section": "Line 19",
+          "relevant_excerpt": "• Incomplete: Finalize OpenAPI 3.1 specification for partner bank reconciliation API.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-003",
+          "claim_text": "Unfinished work item: Load test Kafka broker under 20,000 synthetic transaction sp",
+          "claim_category": "unfinished_work",
+          "source_id": "kb_vidmpko7k",
+          "source_name": "Falcon-Sprint26-Handoff-Notes.docx",
+          "document_reference": "Falcon-Sprint26-Handoff-Notes.docx (Line 21)",
+          "page_or_section": "Line 21",
+          "relevant_excerpt": "• Pending: Load test Kafka broker under 20,000 synthetic transaction spikes.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-DEC-001",
+          "claim_text": "Decision made: Deploy debezium cdc connectors with apache kafka and scylladb for idempotency",
+          "claim_category": "decision",
+          "source_id": "kb_348uae3b5",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "document_reference": "ADR-007-Database-Cutover-Strategy.pdf (Line 13)",
+          "page_or_section": "Line 13",
+          "relevant_excerpt": "2. ARCHITECTURAL DECISION We decided to deploy Debezium CDC connectors with Apache Kafka and ScyllaDB for idempotency caching, rather than batch ETL replication or AWS DMS.",
+          "confidence_score": 0.92,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-004",
+          "claim_text": "Unfinished work item: The multi-region Kafka replication mirror-maker is still unc",
+          "claim_category": "unfinished_work",
+          "source_id": "kb_348uae3b5",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "document_reference": "ADR-007-Database-Cutover-Strategy.pdf (Line 22)",
+          "page_or_section": "Line 22",
+          "relevant_excerpt": "TODO: The multi-region Kafka replication mirror-maker is still unconfigured. Blocked by: Network latency spikes across us-east-1 and eu-central-1.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-005",
+          "claim_text": "Unfinished work item: Consumer group idempotency deduplication key is not yet impl",
+          "claim_category": "unfinished_work",
+          "source_id": "kb_348uae3b5",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "document_reference": "ADR-007-Database-Cutover-Strategy.pdf (Line 26)",
+          "page_or_section": "Line 26",
+          "relevant_excerpt": "Incomplete: Consumer group idempotency deduplication key is not yet implemented in the settlement worker.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-RSK-001",
+          "claim_text": "Identified project risk: High risk of data divergence if the primary sequence numbers",
+          "claim_category": "risk",
+          "source_id": "kb_348uae3b5",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "document_reference": "ADR-007-Database-Cutover-Strategy.pdf (Line 30)",
+          "page_or_section": "Line 30",
+          "relevant_excerpt": "Risk: High risk of data divergence if the primary sequence numbers skip during failover. Mitigation: Deploy dual-write verification shadow proxy for 72 hours prior to cutover.",
+          "confidence_score": 0.89,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-RSK-002",
+          "claim_text": "Identified project risk: Aris Thorne is the sole administrator holding the master",
+          "claim_category": "risk",
+          "source_id": "kb_348uae3b5",
+          "source_name": "ADR-007-Database-Cutover-Strategy.pdf",
+          "document_reference": "ADR-007-Database-Cutover-Strategy.pdf (Line 32)",
+          "page_or_section": "Line 32",
+          "relevant_excerpt": "Single Point of Failure: Aris Thorne is the sole administrator holding the master GPG decryption key for production database backups. Immediate key rotation required.",
+          "confidence_score": 0.89,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-DEC-002",
+          "claim_text": "Decision made: Delay production traffic cutover by 2 weeks until database read-replica lag fall",
+          "claim_category": "decision",
+          "source_id": "src_apex_meeting_notes",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "document_reference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 6)",
+          "page_or_section": "Line 6",
+          "relevant_excerpt": "Key Discussion Points & Decisions: 1. Decision: Decided to delay production traffic cutover by 2 weeks until database read-replica lag falls below 50ms. Decider: Sarah Jenkins & Marcus Chen.",
+          "confidence_score": 0.92,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-006",
+          "claim_text": "Unfinished work item: Automate Vault secret rotation script",
+          "claim_category": "unfinished_work",
+          "source_id": "src_apex_meeting_notes",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "document_reference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 13)",
+          "page_or_section": "Line 13",
+          "relevant_excerpt": "- TODO: Automate Vault secret rotation script. Owner: Alex Kim. Priority: High. - Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-007",
+          "claim_text": "Unfinished work item: Redis cluster cache invalidation hooks are still missing in ",
+          "claim_category": "unfinished_work",
+          "source_id": "src_apex_meeting_notes",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "document_reference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 14)",
+          "page_or_section": "Line 14",
+          "relevant_excerpt": "- Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence. - WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-008",
+          "claim_text": "Unfinished work item: Write Terraform module for multi-region disaster recovery fa",
+          "claim_category": "unfinished_work",
+          "source_id": "src_apex_meeting_notes",
+          "source_name": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+          "document_reference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 15)",
+          "page_or_section": "Line 15",
+          "relevant_excerpt": "- WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-DEC-003",
+          "claim_text": "Decision made: Adopt amazon eks with cilium cni and terraform infrastructure-as-code instead of",
+          "claim_category": "decision",
+          "source_id": "src_apex_arch_pdf",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "document_reference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 12)",
+          "page_or_section": "Line 12",
+          "relevant_excerpt": "Decision: We decided to adopt Amazon EKS with Cilium CNI and Terraform infrastructure-as-code instead of Docker Swarm or Nomad. Decider: Marcus Chen & Sarah Jenkins.",
+          "confidence_score": 0.92,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-009",
+          "claim_text": "Unfinished work item: Complete mTLS service mesh verification between Auth Service",
+          "claim_category": "unfinished_work",
+          "source_id": "src_apex_arch_pdf",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "document_reference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 18)",
+          "page_or_section": "Line 18",
+          "relevant_excerpt": "TODO: Complete mTLS service mesh verification between Auth Service and Vault before cutover. Blocked by: Vault certificate auto-rotation issue (#342).",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-RSK-003",
+          "claim_text": "Identified project risk: Single point of failure in PostgreSQL connection pooling",
+          "claim_category": "risk",
+          "source_id": "src_apex_arch_pdf",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "document_reference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 25)",
+          "page_or_section": "Line 25",
+          "relevant_excerpt": "Risk: Single point of failure in PostgreSQL connection pooling. If PgBouncer pod crashes, payment API fails. Mitigation: Deploy redundant PgBouncer stateful set with anti-affinity rules.",
+          "confidence_score": 0.89,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-RSK-004",
+          "claim_text": "Identified project risk: Marcus Chen holds sole credentials for production Vault clus",
+          "claim_category": "risk",
+          "source_id": "src_apex_arch_pdf",
+          "source_name": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+          "document_reference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 27)",
+          "page_or_section": "Line 27",
+          "relevant_excerpt": "Warning: Marcus Chen holds sole credentials for production Vault cluster root key token. Handover required immediately. ",
+          "confidence_score": 0.89,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        }
+      ],
+      "stats": {
+        "source_count": 5,
+        "decision_count": 3,
+        "task_count": 9,
+        "risk_count": 4,
+        "dependency_count": 1,
+        "unresolved_question_count": 5,
+        "evidence_claim_count": 16,
+        "unassigned_tasks": 9
+      },
+      "engineUsed": "heuristic_pattern_engine",
+      "createdAt": "2026-11-09T10:58:34.958Z",
+      "_id": "kb_ib6d5fb5d",
+      "id": "kb_ib6d5fb5d",
+      "updatedAt": "2026-11-09T10:58:34.958Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "projectName": "E2E Test Transition Engine",
+      "targetRole": "Incoming Lead Architect",
+      "departingMember": "Marcus Chen",
+      "healthScore": 74,
+      "summary": "KnowBridge AI reconstructed project 'E2E Test Transition Engine' across 1 authorized sources. Identified 1 architectural decisions, 1 pending work items, and 1 operational risks. 1 tasks lack confirmed ownership.",
+      "decisions": [
+        {
+          "id": "DEC-001",
+          "title": "Adopt amazon eks with cilium cni",
+          "decision": "Decided to adopt Amazon EKS with Cilium CNI",
+          "date": "Insufficient Evidence",
+          "decider": "Insufficient Evidence",
+          "why": "Recorded rationale in Meeting: Lead Handover Sync & Security Audit: ## DISCUSSION & DECISIONS Decided to adopt Amazon EKS with Cilium CNI. Marcus Chen will hand over Vault root keys by Nov...",
+          "alternatives_considered": [
+            "Insufficient Evidence"
+          ],
+          "evidence_excerpt": "## DISCUSSION & DECISIONS Decided to adopt Amazon EKS with Cilium CNI. Marcus Chen will hand over Vault root keys by Nov 10.",
+          "source_name": "Meeting: Lead Handover Sync & Security Audit",
+          "source_id": "kb_tced7tcxs",
+          "section_or_page": "Line 7",
+          "confidence": 0.9,
+          "status": "active"
+        }
+      ],
+      "unfinishedWork": [
+        {
+          "id": "TSK-001",
+          "title": "Complete mtls service mesh verification between auth service and vault",
+          "description": "TODO: Complete mTLS service mesh verification between Auth Service and Vault. Assigned to: Elena Rostova.",
+          "type": "pending_task",
+          "priority": "medium",
+          "assigned_to": "Insufficient Evidence",
+          "ownership_status": "unassigned",
+          "evidence_excerpt": "TODO: Complete mTLS service mesh verification between Auth Service and Vault. Assigned to: Elena Rostova.",
+          "source_name": "Meeting: Lead Handover Sync & Security Audit",
+          "source_id": "kb_tced7tcxs",
+          "estimated_effort": "1 week"
+        }
+      ],
+      "ownership": [
+        {
+          "id": "OWN-001",
+          "role_or_domain": "Active Work Package: Complete mtls service mesh ver...",
+          "current_owner": "Insufficient Evidence",
+          "handover_to": "Incoming Lead Architect",
+          "responsibilities": [
+            "Complete mtls service mesh verification between auth service and vault"
+          ],
+          "key_contacts": [
+            "Engineering Lead",
+            "Project Manager"
+          ],
+          "ownership_gap": true,
+          "gap_risk_level": "high",
+          "evidence_excerpt": "Extracted from task assignments: Complete mtls service mesh verification between auth service and vault",
+          "source_name": "Task & Activity Matrix",
+          "source_id": "src-matrix"
+        }
+      ],
+      "dependencies": [],
+      "risks": [
+        {
+          "id": "RSK-001",
+          "title": "Tacit Knowledge Loss during Team Transition",
+          "description": "Incoming member has limited access to historical architecture context without documented rationale.",
+          "category": "transition",
+          "severity": "high",
+          "probability": "high",
+          "mitigation": "Perform structured 5-stage handover review and sign-off with outgoing member.",
+          "is_unresolved": true,
+          "evidence_excerpt": "Detected single-maintainer ownership pattern across core modules.",
+          "source_name": "KnowBridge AI Reconstruction Engine",
+          "source_id": "src-engine"
+        }
+      ],
+      "nextActions": [
+        {
+          "id": "ACT-001",
+          "action": "Review authenticated access credentials and project permissions for Incoming Lead Architect.",
+          "priority": "immediate",
+          "target_role": "Incoming Lead Architect",
+          "timeline_phase": "Day 1-30",
+          "dependencies": [
+            "Administrative Access Grant"
+          ],
+          "evidence_excerpt": "Critical onboarding requirement identified in environment setup records.",
+          "source_name": "Environment Baseline",
+          "source_id": "src-env"
+        },
+        {
+          "id": "ACT-002",
+          "action": "Execute test verification on outstanding high-priority tasks: ['Complete mtls service mesh verification between auth service and vault'].",
+          "priority": "immediate",
+          "target_role": "Incoming Lead Architect",
+          "timeline_phase": "Day 1-30",
+          "dependencies": [
+            "Complete mtls service mesh verification between auth service and vault"
+          ],
+          "evidence_excerpt": "Outstanding work items requiring immediate developer continuation.",
+          "source_name": "Task Registry",
+          "source_id": "src-reg"
+        },
+        {
+          "id": "ACT-003",
+          "action": "Address unresolved questions regarding undocumented dependencies and third-party API quotas.",
+          "priority": "short_term",
+          "target_role": "Incoming Lead Architect",
+          "timeline_phase": "Day 31-60",
+          "dependencies": [
+            "Knowledge Review Meeting"
+          ],
+          "evidence_excerpt": "Open question items marked with Insufficient Evidence.",
+          "source_name": "Risk Audit",
+          "source_id": "src-audit"
+        }
+      ],
+      "unresolvedQuestions": [
+        {
+          "id": "QUE-001",
+          "question": "What is the production deployment rollback protocol if migration fails?",
+          "reason": "missing_information",
+          "insufficient_evidence": true,
+          "impact": "Operational vulnerability during deployment cycles.",
+          "suggested_action": "Request deployment runbook from departing infrastructure engineer.",
+          "source_name": "KnowBridge AI Reconstruction Engine"
+        }
+      ],
+      "evidenceClaims": [
+        {
+          "claim_id": "CLM-DEC-001",
+          "claim_text": "Decision made: Adopt amazon eks with cilium cni",
+          "claim_category": "decision",
+          "source_id": "kb_tced7tcxs",
+          "source_name": "Meeting: Lead Handover Sync & Security Audit",
+          "document_reference": "Meeting: Lead Handover Sync & Security Audit (Line 7)",
+          "page_or_section": "Line 7",
+          "relevant_excerpt": "## DISCUSSION & DECISIONS Decided to adopt Amazon EKS with Cilium CNI. Marcus Chen will hand over Vault root keys by Nov 10.",
+          "confidence_score": 0.92,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        },
+        {
+          "claim_id": "CLM-TSK-001",
+          "claim_text": "Unfinished work item: Complete mTLS service mesh verification between Auth Service",
+          "claim_category": "unfinished_work",
+          "source_id": "kb_tced7tcxs",
+          "source_name": "Meeting: Lead Handover Sync & Security Audit",
+          "document_reference": "Meeting: Lead Handover Sync & Security Audit (Line 10)",
+          "page_or_section": "Line 10",
+          "relevant_excerpt": "TODO: Complete mTLS service mesh verification between Auth Service and Vault. Assigned to: Elena Rostova.",
+          "confidence_score": 0.88,
+          "verification_status": "unverified",
+          "last_verified_date": "2026-11-09"
+        }
+      ],
+      "stats": {
+        "source_count": 1,
+        "decision_count": 1,
+        "task_count": 1,
+        "risk_count": 1,
+        "dependency_count": 0,
+        "unresolved_question_count": 1,
+        "evidence_claim_count": 2,
+        "unassigned_tasks": 1
+      },
+      "engineUsed": "heuristic_pattern_engine",
+      "createdAt": "2026-11-09T10:58:03.627Z",
+      "_id": "kb_o8c3h5uwm",
+      "id": "kb_o8c3h5uwm",
+      "updatedAt": "2026-11-09T10:58:03.627Z"
+    }
+  ],
+  "evidenceClaims": [
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-RSK-004",
+      "claimText": "Identified project risk: Marcus Chen holds sole credentials for production Vault clus",
+      "claimCategory": "risk",
+      "sourceId": "src_apex_arch_pdf",
+      "sourceName": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+      "documentReference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 27)",
+      "pageOrSection": "Line 27",
+      "relevantExcerpt": "Warning: Marcus Chen holds sole credentials for production Vault cluster root key token. Handover required immediately. ",
+      "confidenceScore": 0.89,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_t4es6bko6",
+      "id": "kb_t4es6bko6",
+      "createdAt": "2026-11-09T10:58:34.978Z",
+      "updatedAt": "2026-11-09T10:58:34.978Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-RSK-003",
+      "claimText": "Identified project risk: Single point of failure in PostgreSQL connection pooling",
+      "claimCategory": "risk",
+      "sourceId": "src_apex_arch_pdf",
+      "sourceName": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+      "documentReference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 25)",
+      "pageOrSection": "Line 25",
+      "relevantExcerpt": "Risk: Single point of failure in PostgreSQL connection pooling. If PgBouncer pod crashes, payment API fails. Mitigation: Deploy redundant PgBouncer stateful set with anti-affinity rules.",
+      "confidenceScore": 0.89,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_2jj4757ug",
+      "id": "kb_2jj4757ug",
+      "createdAt": "2026-11-09T10:58:34.977Z",
+      "updatedAt": "2026-11-09T10:58:34.977Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-009",
+      "claimText": "Unfinished work item: Complete mTLS service mesh verification between Auth Service",
+      "claimCategory": "unfinished_work",
+      "sourceId": "src_apex_arch_pdf",
+      "sourceName": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+      "documentReference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 18)",
+      "pageOrSection": "Line 18",
+      "relevantExcerpt": "TODO: Complete mTLS service mesh verification between Auth Service and Vault before cutover. Blocked by: Vault certificate auto-rotation issue (#342).",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_po4w2luv3",
+      "id": "kb_po4w2luv3",
+      "createdAt": "2026-11-09T10:58:34.976Z",
+      "updatedAt": "2026-11-09T10:58:34.976Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-DEC-003",
+      "claimText": "Decision made: Adopt amazon eks with cilium cni and terraform infrastructure-as-code instead of",
+      "claimCategory": "decision",
+      "sourceId": "src_apex_arch_pdf",
+      "sourceName": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf",
+      "documentReference": "Apex Infrastructure Architecture Decision Record (ADR-04).pdf (Line 12)",
+      "pageOrSection": "Line 12",
+      "relevantExcerpt": "Decision: We decided to adopt Amazon EKS with Cilium CNI and Terraform infrastructure-as-code instead of Docker Swarm or Nomad. Decider: Marcus Chen & Sarah Jenkins.",
+      "confidenceScore": 0.92,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_mx5edwxsg",
+      "id": "kb_mx5edwxsg",
+      "createdAt": "2026-11-09T10:58:34.975Z",
+      "updatedAt": "2026-11-09T10:58:34.975Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-008",
+      "claimText": "Unfinished work item: Write Terraform module for multi-region disaster recovery fa",
+      "claimCategory": "unfinished_work",
+      "sourceId": "src_apex_meeting_notes",
+      "sourceName": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+      "documentReference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 15)",
+      "pageOrSection": "Line 15",
+      "relevantExcerpt": "- WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_8cub9vsx2",
+      "id": "kb_8cub9vsx2",
+      "createdAt": "2026-11-09T10:58:34.974Z",
+      "updatedAt": "2026-11-09T10:58:34.974Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-007",
+      "claimText": "Unfinished work item: Redis cluster cache invalidation hooks are still missing in ",
+      "claimCategory": "unfinished_work",
+      "sourceId": "src_apex_meeting_notes",
+      "sourceName": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+      "documentReference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 14)",
+      "pageOrSection": "Line 14",
+      "relevantExcerpt": "- Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence. - WIP: Write Terraform module for multi-region disaster recovery failover. Assigned to: Marcus Chen.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_oeainbxfx",
+      "id": "kb_oeainbxfx",
+      "createdAt": "2026-11-09T10:58:34.972Z",
+      "updatedAt": "2026-11-09T10:58:34.972Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-006",
+      "claimText": "Unfinished work item: Automate Vault secret rotation script",
+      "claimCategory": "unfinished_work",
+      "sourceId": "src_apex_meeting_notes",
+      "sourceName": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+      "documentReference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 13)",
+      "pageOrSection": "Line 13",
+      "relevantExcerpt": "- TODO: Automate Vault secret rotation script. Owner: Alex Kim. Priority: High. - Incomplete: Redis cluster cache invalidation hooks are still missing in the payment worker. Assigned to: Insufficient Evidence.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_7mz7yi5b8",
+      "id": "kb_7mz7yi5b8",
+      "createdAt": "2026-11-09T10:58:34.971Z",
+      "updatedAt": "2026-11-09T10:58:34.971Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-DEC-002",
+      "claimText": "Decision made: Delay production traffic cutover by 2 weeks until database read-replica lag fall",
+      "claimCategory": "decision",
+      "sourceId": "src_apex_meeting_notes",
+      "sourceName": "Sprint 24 Architecture & Cutover Handover Meeting.txt",
+      "documentReference": "Sprint 24 Architecture & Cutover Handover Meeting.txt (Line 6)",
+      "pageOrSection": "Line 6",
+      "relevantExcerpt": "Key Discussion Points & Decisions: 1. Decision: Decided to delay production traffic cutover by 2 weeks until database read-replica lag falls below 50ms. Decider: Sarah Jenkins & Marcus Chen.",
+      "confidenceScore": 0.92,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_iqju64dyg",
+      "id": "kb_iqju64dyg",
+      "createdAt": "2026-11-09T10:58:34.970Z",
+      "updatedAt": "2026-11-09T10:58:34.970Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-RSK-002",
+      "claimText": "Identified project risk: Aris Thorne is the sole administrator holding the master",
+      "claimCategory": "risk",
+      "sourceId": "kb_348uae3b5",
+      "sourceName": "ADR-007-Database-Cutover-Strategy.pdf",
+      "documentReference": "ADR-007-Database-Cutover-Strategy.pdf (Line 32)",
+      "pageOrSection": "Line 32",
+      "relevantExcerpt": "Single Point of Failure: Aris Thorne is the sole administrator holding the master GPG decryption key for production database backups. Immediate key rotation required.",
+      "confidenceScore": 0.89,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_mprvu26kz",
+      "id": "kb_mprvu26kz",
+      "createdAt": "2026-11-09T10:58:34.969Z",
+      "updatedAt": "2026-11-09T10:58:34.969Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-RSK-001",
+      "claimText": "Identified project risk: High risk of data divergence if the primary sequence numbers",
+      "claimCategory": "risk",
+      "sourceId": "kb_348uae3b5",
+      "sourceName": "ADR-007-Database-Cutover-Strategy.pdf",
+      "documentReference": "ADR-007-Database-Cutover-Strategy.pdf (Line 30)",
+      "pageOrSection": "Line 30",
+      "relevantExcerpt": "Risk: High risk of data divergence if the primary sequence numbers skip during failover. Mitigation: Deploy dual-write verification shadow proxy for 72 hours prior to cutover.",
+      "confidenceScore": 0.89,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_wrekxyihb",
+      "id": "kb_wrekxyihb",
+      "createdAt": "2026-11-09T10:58:34.968Z",
+      "updatedAt": "2026-11-09T10:58:34.968Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-005",
+      "claimText": "Unfinished work item: Consumer group idempotency deduplication key is not yet impl",
+      "claimCategory": "unfinished_work",
+      "sourceId": "kb_348uae3b5",
+      "sourceName": "ADR-007-Database-Cutover-Strategy.pdf",
+      "documentReference": "ADR-007-Database-Cutover-Strategy.pdf (Line 26)",
+      "pageOrSection": "Line 26",
+      "relevantExcerpt": "Incomplete: Consumer group idempotency deduplication key is not yet implemented in the settlement worker.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_2t1bwou75",
+      "id": "kb_2t1bwou75",
+      "createdAt": "2026-11-09T10:58:34.965Z",
+      "updatedAt": "2026-11-09T10:58:34.965Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-004",
+      "claimText": "Unfinished work item: The multi-region Kafka replication mirror-maker is still unc",
+      "claimCategory": "unfinished_work",
+      "sourceId": "kb_348uae3b5",
+      "sourceName": "ADR-007-Database-Cutover-Strategy.pdf",
+      "documentReference": "ADR-007-Database-Cutover-Strategy.pdf (Line 22)",
+      "pageOrSection": "Line 22",
+      "relevantExcerpt": "TODO: The multi-region Kafka replication mirror-maker is still unconfigured. Blocked by: Network latency spikes across us-east-1 and eu-central-1.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_57loonx02",
+      "id": "kb_57loonx02",
+      "createdAt": "2026-11-09T10:58:34.964Z",
+      "updatedAt": "2026-11-09T10:58:34.964Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-DEC-001",
+      "claimText": "Decision made: Deploy debezium cdc connectors with apache kafka and scylladb for idempotency",
+      "claimCategory": "decision",
+      "sourceId": "kb_348uae3b5",
+      "sourceName": "ADR-007-Database-Cutover-Strategy.pdf",
+      "documentReference": "ADR-007-Database-Cutover-Strategy.pdf (Line 13)",
+      "pageOrSection": "Line 13",
+      "relevantExcerpt": "2. ARCHITECTURAL DECISION We decided to deploy Debezium CDC connectors with Apache Kafka and ScyllaDB for idempotency caching, rather than batch ETL replication or AWS DMS.",
+      "confidenceScore": 0.92,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_6hgmx6nad",
+      "id": "kb_6hgmx6nad",
+      "createdAt": "2026-11-09T10:58:34.963Z",
+      "updatedAt": "2026-11-09T10:58:34.963Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-003",
+      "claimText": "Unfinished work item: Load test Kafka broker under 20,000 synthetic transaction sp",
+      "claimCategory": "unfinished_work",
+      "sourceId": "kb_vidmpko7k",
+      "sourceName": "Falcon-Sprint26-Handoff-Notes.docx",
+      "documentReference": "Falcon-Sprint26-Handoff-Notes.docx (Line 21)",
+      "pageOrSection": "Line 21",
+      "relevantExcerpt": "• Pending: Load test Kafka broker under 20,000 synthetic transaction spikes.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_9rz2ibs7a",
+      "id": "kb_9rz2ibs7a",
+      "createdAt": "2026-11-09T10:58:34.962Z",
+      "updatedAt": "2026-11-09T10:58:34.962Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-002",
+      "claimText": "Unfinished work item: Finalize OpenAPI 3",
+      "claimCategory": "unfinished_work",
+      "sourceId": "kb_vidmpko7k",
+      "sourceName": "Falcon-Sprint26-Handoff-Notes.docx",
+      "documentReference": "Falcon-Sprint26-Handoff-Notes.docx (Line 19)",
+      "pageOrSection": "Line 19",
+      "relevantExcerpt": "• Incomplete: Finalize OpenAPI 3.1 specification for partner bank reconciliation API.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_89j3o6a5n",
+      "id": "kb_89j3o6a5n",
+      "createdAt": "2026-11-09T10:58:34.961Z",
+      "updatedAt": "2026-11-09T10:58:34.961Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "claimId": "CLM-TSK-001",
+      "claimText": "Unfinished work item: Implement automated dead-letter queue re-drive Lambda functi",
+      "claimCategory": "unfinished_work",
+      "sourceId": "kb_vidmpko7k",
+      "sourceName": "Falcon-Sprint26-Handoff-Notes.docx",
+      "documentReference": "Falcon-Sprint26-Handoff-Notes.docx (Line 17)",
+      "pageOrSection": "Line 17",
+      "relevantExcerpt": "• TODO: Implement automated dead-letter queue re-drive Lambda function. Priority: High. Assigned to: Unassigned.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_er2ym7d86",
+      "id": "kb_er2ym7d86",
+      "createdAt": "2026-11-09T10:58:34.961Z",
+      "updatedAt": "2026-11-09T10:58:34.961Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "claimId": "CLM-TSK-001",
+      "claimText": "Unfinished work item: Complete mTLS service mesh verification between Auth Service",
+      "claimCategory": "unfinished_work",
+      "sourceId": "kb_tced7tcxs",
+      "sourceName": "Meeting: Lead Handover Sync & Security Audit",
+      "documentReference": "Meeting: Lead Handover Sync & Security Audit (Line 10)",
+      "pageOrSection": "Line 10",
+      "relevantExcerpt": "TODO: Complete mTLS service mesh verification between Auth Service and Vault. Assigned to: Elena Rostova.",
+      "confidenceScore": 0.88,
+      "verificationStatus": "verified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_mdfy6snhj",
+      "id": "kb_mdfy6snhj",
+      "createdAt": "2026-11-09T10:58:03.630Z",
+      "updatedAt": "2026-11-09T10:58:03.647Z",
+      "verifiedBy": "Demo Lead Architect",
+      "verifierNotes": "Verified against source document via automated test."
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "claimId": "CLM-DEC-001",
+      "claimText": "Decision made: Adopt amazon eks with cilium cni",
+      "claimCategory": "decision",
+      "sourceId": "kb_tced7tcxs",
+      "sourceName": "Meeting: Lead Handover Sync & Security Audit",
+      "documentReference": "Meeting: Lead Handover Sync & Security Audit (Line 7)",
+      "pageOrSection": "Line 7",
+      "relevantExcerpt": "## DISCUSSION & DECISIONS Decided to adopt Amazon EKS with Cilium CNI. Marcus Chen will hand over Vault root keys by Nov 10.",
+      "confidenceScore": 0.92,
+      "verificationStatus": "unverified",
+      "lastVerifiedDate": "2026-11-09",
+      "_id": "kb_1tmly4nqm",
+      "id": "kb_1tmly4nqm",
+      "createdAt": "2026-11-09T10:58:03.629Z",
+      "updatedAt": "2026-11-09T10:58:03.629Z"
+    }
+  ],
+  "handovers": [
+    {
+      "projectId": "kb_yv68h14h8",
+      "projectName": "E2E Test Transition Engine",
+      "title": "KnowBridge Handover Package: E2E Test Transition Engine -> Incoming Lead Architect",
+      "targetRole": "Incoming Lead Architect",
+      "departingMember": "Marcus Chen",
+      "status": "approved",
+      "healthScore": 74,
+      "shareToken": "375bade0-44d9-4fe1-9b5b-2c6c50ca161e",
+      "shareExpiresAt": "2027-02-07T10:58:03.665Z",
+      "executiveSummary": "KnowBridge AI reconstructed project 'E2E Test Transition Engine' across 1 authorized sources. Identified 1 architectural decisions, 1 pending work items, and 1 operational risks. 1 tasks lack confirmed ownership.",
+      "roadmap30Days": [
+        {
+          "id": "PH1-01",
+          "phase": "Days 1-30: Onboarding, Access & Blocker Clearance",
+          "task": "Complete environment setup, repository access, and permission verification for Incoming Lead Architect.",
+          "status": "pending",
+          "owner": "Incoming Lead Architect",
+          "criticality": "high"
+        },
+        {
+          "id": "PH1-02",
+          "phase": "Days 1-30: Onboarding, Access & Blocker Clearance",
+          "task": "Review top 1 architectural decisions and verify baseline dependencies.",
+          "status": "pending",
+          "owner": "Incoming Lead Architect",
+          "criticality": "high"
+        }
+      ],
+      "roadmap60Days": [
+        {
+          "id": "PH2-01",
+          "phase": "Days 31-60: Core Execution & Dependency Resolution",
+          "task": "Resolve flagged dependencies and clear single-point-of-failure risks.",
+          "status": "pending",
+          "owner": "Incoming Lead Architect",
+          "criticality": "medium"
+        },
+        {
+          "id": "PH2-02",
+          "phase": "Days 31-60: Core Execution & Dependency Resolution",
+          "task": "Address open questions marked as 'Insufficient Evidence': ['What is the production deployment rollba']",
+          "status": "pending",
+          "owner": "Incoming Lead Architect",
+          "criticality": "medium"
+        }
+      ],
+      "roadmap90Days": [
+        {
+          "id": "PH3-01",
+          "phase": "Days 61-90: Autonomous Architecture & Long-term Stability",
+          "task": "Institutionalize updated ADR documentation and knowledge verification checkpoints.",
+          "status": "pending",
+          "owner": "Incoming Lead Architect",
+          "criticality": "low"
+        },
+        {
+          "id": "PH3-02",
+          "phase": "Days 61-90: Autonomous Architecture & Long-term Stability",
+          "task": "Establish continuous monitoring for remaining project risks: ['Tacit Knowledge Loss during Team Tr']",
+          "status": "pending",
+          "owner": "Incoming Lead Architect",
+          "criticality": "low"
+        }
+      ],
+      "reviewers": [
+        {
+          "name": "Sarah Jenkins (PM)",
+          "role": "Reviewer",
+          "status": "pending",
+          "signedAt": null
+        },
+        {
+          "name": "Marcus Chen (Departing Lead)",
+          "role": "Reviewer",
+          "status": "pending",
+          "signedAt": null
+        },
+        {
+          "name": "Elena Rostova (Incoming Lead)",
+          "role": "Reviewer",
+          "status": "pending",
+          "signedAt": null
+        },
+        {
+          "name": "Demo Lead Architect",
+          "role": "Reviewer",
+          "status": "approved",
+          "signedAt": "2026-11-09T10:58:03.674Z",
+          "comment": "Formally approved by Project Manager in E2E validation."
+        }
+      ],
+      "keyDecisionsCount": 1,
+      "activeTasksCount": 1,
+      "criticalRisksCount": 1,
+      "customNotes": "Verify Vault root token before signing.",
+      "_id": "kb_l5kd6hxyf",
+      "id": "kb_l5kd6hxyf",
+      "createdAt": "2026-11-09T10:58:03.665Z",
+      "updatedAt": "2026-11-09T10:58:03.674Z",
+      "lastApprovedBy": "Demo Lead Architect",
+      "lastApprovedAt": "2026-11-09T10:58:03.674Z"
+    },
+    {
+      "id": "hnd_apex_lead_eng",
+      "projectId": "proj_apex_infra",
+      "projectName": "Apex Cloud Infrastructure Migration",
+      "title": "Incoming Lead Architect Transition Package",
+      "targetRole": "Incoming Lead Architect (Elena Rostova)",
+      "departingMember": "Marcus Chen",
+      "status": "in_review",
+      "healthScore": 84,
+      "shareToken": "apex-transition-token-2025",
+      "shareExpiresAt": "2026-12-31T23:59:59.000Z",
+      "executiveSummary": "This transition package synthesizes architectural decisions, unfinished EKS migration tasks, and critical security credentials for the incoming lead architect. Immediate focus is unblocking the Vault certificate auto-rotation issue and securing root MFA keys before Nov 15.",
+      "roadmap30Days": [
+        {
+          "id": "R30-1",
+          "phase": "Days 1-30",
+          "task": "Obtain AWS root account IAM access and transfer Vault production KMS unseal keys from Marcus Chen.",
+          "criticality": "critical",
+          "owner": "Elena Rostova",
+          "completed": false
+        },
+        {
+          "id": "R30-2",
+          "phase": "Days 1-30",
+          "task": "Resolve Vault agent injector auto-rotation bug (#48) blocking EKS microservices cutover.",
+          "criticality": "critical",
+          "owner": "Elena Rostova",
+          "completed": false
+        },
+        {
+          "id": "R30-3",
+          "phase": "Days 1-30",
+          "task": "Conduct end-to-end rehearsal of PgBouncer failover under simulated traffic spikes.",
+          "criticality": "high",
+          "owner": "DevOps / Elena",
+          "completed": false
+        }
+      ],
+      "roadmap60Days": [
+        {
+          "id": "R60-1",
+          "phase": "Days 31-60",
+          "task": "Execute gradual 10% canary traffic cutover using Argo Rollouts blue/green pipeline.",
+          "criticality": "high",
+          "owner": "Elena Rostova",
+          "completed": false
+        },
+        {
+          "id": "R60-2",
+          "phase": "Days 31-60",
+          "task": "Assign permanent ownership for Kafka dead-letter queue rebalance triage alerts.",
+          "criticality": "medium",
+          "owner": "Elena Rostova",
+          "completed": false
+        }
+      ],
+      "roadmap90Days": [
+        {
+          "id": "R90-1",
+          "phase": "Days 61-90",
+          "task": "Decommission legacy EC2 single-VPC instances and establish automated ADR repository.",
+          "criticality": "low",
+          "owner": "Elena Rostova",
+          "completed": false
+        }
+      ],
+      "reviewers": [
+        {
+          "name": "Sarah Jenkins",
+          "role": "Project Manager",
+          "status": "approved",
+          "signedAt": "2025-10-28T14:20:00.000Z"
+        },
+        {
+          "name": "Marcus Chen",
+          "role": "Departing Lead",
+          "status": "approved",
+          "signedAt": "2025-10-29T10:15:00.000Z"
+        },
+        {
+          "name": "Elena Rostova",
+          "role": "Incoming Lead",
+          "status": "pending",
+          "signedAt": null
+        }
+      ],
+      "keyDecisionsCount": 4,
+      "activeTasksCount": 3,
+      "criticalRisksCount": 2,
+      "createdAt": "2025-10-26T12:00:00.000Z",
+      "_id": "hnd_apex_lead_eng",
+      "updatedAt": "2026-11-09T10:26:00.910Z"
+    }
+  ],
+  "activities": [
+    {
+      "projectId": "kb_z850gxwnl",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Created Project",
+      "details": "Project \"new\" was initialized in workspace.",
+      "_id": "kb_qagi3s2vw",
+      "id": "kb_qagi3s2vw",
+      "createdAt": "2026-11-09T16:00:07.867Z",
+      "updatedAt": "2026-11-09T16:00:07.867Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Connected GitHub Repository",
+      "details": "Connected octocat/Hello-World (3 commits, 15 issues/PRs audited).",
+      "_id": "kb_g90d7gh2n",
+      "id": "kb_g90d7gh2n",
+      "createdAt": "2026-11-09T10:59:08.357Z",
+      "updatedAt": "2026-11-09T10:59:08.357Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Executed Knowledge Reconstruction",
+      "details": "Reconstructed project state across 5 sources. Health Score: 49%. Engine: heuristic_pattern_engine.",
+      "_id": "kb_ek9x3e1zy",
+      "id": "kb_ek9x3e1zy",
+      "createdAt": "2026-11-09T10:58:34.980Z",
+      "updatedAt": "2026-11-09T10:58:34.980Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Connected Document Source",
+      "details": "Ingested Falcon-Sprint26-Handoff-Notes.docx (2 pages, 1214 characters).",
+      "_id": "kb_g5drcacfm",
+      "id": "kb_g5drcacfm",
+      "createdAt": "2026-11-09T10:58:21.882Z",
+      "updatedAt": "2026-11-09T10:58:21.882Z"
+    },
+    {
+      "projectId": "proj_apex_infra",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Connected Document Source",
+      "details": "Ingested ADR-007-Database-Cutover-Strategy.pdf (2 pages, 1783 characters).",
+      "_id": "kb_6fagro3px",
+      "id": "kb_6fagro3px",
+      "createdAt": "2026-11-09T10:58:12.786Z",
+      "updatedAt": "2026-11-09T10:58:12.786Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Handover Status: APPROVED",
+      "details": "Handover package for Incoming Lead Architect marked as approved.",
+      "_id": "kb_bzkhi7rug",
+      "id": "kb_bzkhi7rug",
+      "createdAt": "2026-11-09T10:58:03.675Z",
+      "updatedAt": "2026-11-09T10:58:03.675Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Generated Role-Based Handover",
+      "details": "Created handover continuation package for Incoming Lead Architect. Status: Draft.",
+      "_id": "kb_lxg1v3nrh",
+      "id": "kb_lxg1v3nrh",
+      "createdAt": "2026-11-09T10:58:03.666Z",
+      "updatedAt": "2026-11-09T10:58:03.666Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Claim Verified",
+      "details": "Claim [CLM-TSK-001] was marked as verified.",
+      "_id": "kb_j0txf80kp",
+      "id": "kb_j0txf80kp",
+      "createdAt": "2026-11-09T10:58:03.648Z",
+      "updatedAt": "2026-11-09T10:58:03.648Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Executed Knowledge Reconstruction",
+      "details": "Reconstructed project state across 1 sources. Health Score: 74%. Engine: heuristic_pattern_engine.",
+      "_id": "kb_ygfz9t3b0",
+      "id": "kb_ygfz9t3b0",
+      "createdAt": "2026-11-09T10:58:03.631Z",
+      "updatedAt": "2026-11-09T10:58:03.631Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Added Meeting Note",
+      "details": "Recorded meeting note: \"Lead Handover Sync & Security Audit\"",
+      "_id": "kb_pmlboghpl",
+      "id": "kb_pmlboghpl",
+      "createdAt": "2026-11-09T10:58:03.554Z",
+      "updatedAt": "2026-11-09T10:58:03.554Z"
+    },
+    {
+      "projectId": "kb_yv68h14h8",
+      "userId": "demo_user_123",
+      "userName": "Demo Lead Architect",
+      "action": "Created Project",
+      "details": "Project \"E2E Test Transition Engine\" was initialized in workspace.",
+      "_id": "kb_3ki483pbt",
+      "id": "kb_3ki483pbt",
+      "createdAt": "2026-11-09T10:58:03.543Z",
+      "updatedAt": "2026-11-09T10:58:03.543Z"
+    }
+  ]
+}
